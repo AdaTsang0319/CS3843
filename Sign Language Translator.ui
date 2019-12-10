@@ -193,19 +193,6 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="geometry">
-       <rect>
-        <x>580</x>
-        <y>360</y>
-        <width>71</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>add</string>
-      </property>
-     </widget>
      <widget class="QGraphicsView" name="graphicsView">
       <property name="geometry">
        <rect>
@@ -268,7 +255,6 @@
      <zorder>scrollArea</zorder>
      <zorder>label</zorder>
      <zorder>plainTextEdit</zorder>
-     <zorder>pushButton_2</zorder>
      <zorder>graphicsView</zorder>
      <zorder>label_3</zorder>
     </widget>
@@ -291,7 +277,7 @@
        <rect>
         <x>190</x>
         <y>320</y>
-        <width>461</width>
+        <width>341</width>
         <height>79</height>
        </rect>
       </property>
@@ -505,6 +491,32 @@
        <bool>false</bool>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>330</y>
+        <width>81</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>330</y>
+        <width>81</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Clear</string>
+      </property>
+     </widget>
      <zorder>pushButton_4</zorder>
      <zorder>graphicsView_2</zorder>
      <zorder>plainTextEdit_2</zorder>
@@ -512,6 +524,8 @@
      <zorder>scrollArea_2</zorder>
      <zorder>pushButton_3</zorder>
      <zorder>commandLinkButton</zorder>
+     <zorder>pushButton_2</zorder>
+     <zorder>pushButton_5</zorder>
     </widget>
    </widget>
   </widget>
